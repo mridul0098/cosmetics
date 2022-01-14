@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:shop_app/models/product_list.dart';
+import 'package:shop_app/models/cosmetics_list.dart';
 
-import '../product_card.dart';
+import '../cosmetics_card.dart';
 
 class SliverProduct extends StatelessWidget {
   const SliverProduct({Key? key}) : super(key: key);

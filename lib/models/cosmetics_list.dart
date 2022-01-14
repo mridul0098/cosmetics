@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:shop_app/models/product.dart';
+import 'package:shop_app/models/cosmetics.dart';
 
 class ProductProvider with ChangeNotifier {
   final List<Product> _productList = [
@@ -9,8 +9,8 @@ class ProductProvider with ChangeNotifier {
         price: 400.0,
         discount: 20.0 ,
         categoryName: 'cosmetics',
-        subCategoryName: 'phones and tabs',
-        brandName: 'Brand: Mac',
+        subCategoryName: 'Cosmetics and Beauty',
+        brandName: 'Brand: MRM',
         warrenty: '1 years',
         imageUrl:
             'https://media.istockphoto.com/photos/makeup-palette-and-brushes-professional-eyeshadow-palette-picture-id1299164489?b=1&k=20&m=1299164489&s=170667a&w=0&h=GqoYQHfqq4UfbHFq9TlUp3isRCAqm9hoFqnxaKUEQEU=',
@@ -21,7 +21,7 @@ class ProductProvider with ChangeNotifier {
         price: 80.0,
         discount: 0.0,
         categoryName: 'cosmetics',
-        subCategoryName: 'phones and tabs',
+        subCategoryName: 'Cosmetics and Beauty',
         brandName: 'Brand: MRM',
         warrenty: '2 Month',
         imageUrl:
@@ -33,7 +33,7 @@ class ProductProvider with ChangeNotifier {
         price: 300.0,
         discount: 0.0,
         categoryName: 'cosmetics',
-        subCategoryName: 'phones and tabs',
+        subCategoryName: 'Cosmetics and Beauty',
         brandName: 'Brand: MRM',
         //warrenty: '2 years',
         imageUrl:
@@ -45,7 +45,7 @@ class ProductProvider with ChangeNotifier {
         price: 80.0,
         discount: 20.0,
         categoryName: 'cosmetics',
-        subCategoryName: 'phones and tabs',
+        subCategoryName: 'Cosmetics and Beauty',
         brandName: 'Mizan Group',
         //warrenty: '2 years',
         imageUrl:
@@ -57,7 +57,7 @@ class ProductProvider with ChangeNotifier {
         price: 150.0,
         discount: 20.0,
         categoryName: 'cosmetics',
-        subCategoryName: 'smart device',
+       subCategoryName: 'Cosmetics and Beauty',
         brandName: 'Mizan Group',
         //warrenty: '2 years',
         imageUrl:
@@ -69,7 +69,7 @@ class ProductProvider with ChangeNotifier {
         price: 40.0,
         discount: 10.0,
         categoryName: 'cosmetics',
-        subCategoryName: 'PC and Mac',
+        subCategoryName: 'Cosmetics and Beauty',
         brandName: 'GOL',
         //warrenty: '2 years',
         imageUrl:
@@ -81,7 +81,7 @@ class ProductProvider with ChangeNotifier {
         price: 145.0,
         discount: 20.0,
         categoryName: 'cosmetics',
-        subCategoryName: 'PC and Mac',
+        subCategoryName: 'Cosmetics and Beauty',
         brandName: '',
         //warrenty: '2 years',
         imageUrl:
@@ -93,7 +93,7 @@ class ProductProvider with ChangeNotifier {
         price: 660.0,
         discount: 10.0,
         categoryName: 'cosmetics',
-        subCategoryName: 'PC and Mac',
+        subCategoryName: 'Cosmetics and Beauty',
         brandName: 'CTG',
         warrenty: '1 years',
         imageUrl:

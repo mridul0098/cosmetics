@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:shop_app/models/product_list.dart';
+import 'package:shop_app/models/cosmetics_list.dart';
 import 'package:shop_app/widgets/home/sliver_adaptor.dart';
 import 'package:shop_app/widgets/home/sliver_data.dart';
-import 'package:shop_app/widgets/product_card.dart';
+import 'package:shop_app/widgets/cosmetics_card.dart';
 
 void main() {
   runApp(MyApp());
